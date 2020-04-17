@@ -26,7 +26,7 @@ from oauth2client.file import Storage
 from pathlib import Path
 
 class Remote:
-  SCOPES = 'https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/gmail.labels https://www.googleapis.com/auth/gmail.modify'
+  SCOPES = 'https://mail.google.com/'
   APPLICATION_NAME   = 'Lieer'
   CLIENT_SECRET_FILE = None
   authorized         = False
